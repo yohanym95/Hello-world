@@ -1,22 +1,19 @@
 #include <stdio.h>
-
+int a[100000];
 int main(){
 
-    // Factors of a value
-    int num,i=2,l=1;
-
-    printf("Enter a value to calculate ");
-    scanf("%d",&num);
-    if(l==1){
-        while(i<num)
-        {
-            if(num%i==0)
-            {
-                printf("%d ",i);
-            }
-            i++;
-        }
-    } 
-    printf("\n");
-    return 0;
-}
+ int n,i;
+    scanf("%d",&n);
+    //smallest prime factor of any number i
+    for(i=2;i<=n;i++)
+    { if(a[i]==0)
+            for(j=i;j<=n;j+=i)
+           a[j]=i;
+    }
+    //prime factors of number n.
+    while(n!=0)
+    {
+        printf("%d ",a[n]);
+     n=n/a[n];
+    }
+    return 0;}

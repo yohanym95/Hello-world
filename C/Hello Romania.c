@@ -2,5 +2,7 @@
 
 using namespace std;
 main() {
-  printf("Hello Romania!!!");
+  for(int i=0; i<=9; i++){
+    printf("name \n");
+  }
 }

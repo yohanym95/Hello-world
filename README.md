@@ -1,4 +1,4 @@
-# Welcome to Hacktoberfest 2018 Hello-world :clipboard:
+# Welcome to  the Hacktoberfest 2018 Hello-world :clipboard:
 > This Project aims to help you to get started with using Github. You can find a tutorial [here](https://guides.github.com/activities/hello-world/)
 
 
@@ -6,7 +6,7 @@
 
 
 # What is Hacktoberfest?
-Hacktoberfest is a program by Digital Ocean and Github, where you can easily win a T-Shirt just by making 5 pull requests in the month of October to any open source projects on Github.
+Hacktoberfest is a program organised by Digital Ocean and Github, where you can easily win a T-Shirt just by making 5 pull requests in the month of October to any open source projects on Github.
 
 ## Steps to follow :scroll:
 
@@ -23,7 +23,10 @@ You can get your own fork/copy of [Hello-world](https://github.com/Hacktoberfest
 Once you have forked the repo, add your program in the language folder in 
 main branch, if there is no language folder, make one, then add into it.
 You can take a look to the [Programming Language List](https://en.wikipedia.org/wiki/List_of_programming_languages) in Wikipedia to create a new one HelloWorld !
-
+For a pr to be approved and merged please note 
+- we allow maximum of 5000 additions (your prwill get close if its exceeds, but you can ask maintainer for reviewing this)
+- we dont allow deletions of others files or code.
+- we dont allow files to be directly added in root directory of project, add them in there language folder
 ### 4. Ready, Steady, Go... :turtle: :rabbit2:
 
 Once you have completed these steps, you are ready to start contributing 
@@ -32,7 +35,7 @@ by checking our `Help Wanted` issues and creating [pull requests](https://github
 ### 5. Give this Project a Star :star:
 
 If you liked working on this project, please share this project as much 
-as you can and star this project to help as many people in opensource as you can.
+as you can and star this project to help as many people in open source as you can.
 
 
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
